@@ -1,7 +1,7 @@
 local M = {}
 
 M.generate = function(overrides)
-  local c = require("darkrose.colors").get()
+  local c = require("greenrose.colors").get()
 
   local highlights = {
     -- Buffers

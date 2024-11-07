@@ -1,6 +1,6 @@
-local red = "#9E4244"
-local dark_red = "#6D0011"
-local light_red = "#F85149"
+local red = "#15d639"
+local dark_red = "#046e18"
+local light_red = "#11f23b"
 local orange = "#A26B35"
 local light_orange = "#F0883E"
 local dark_purple = "#281C2B"
@@ -77,7 +77,7 @@ local colors = {
 }
 
 M.get = function()
-  local options = require("darkrose.config").options
+  local options = require("greenrose.config").options
   return vim.tbl_deep_extend("force", colors, options.colors)
 end
 
